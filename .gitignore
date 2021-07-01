@@ -1,5 +1,6 @@
 # My personal list of ignore formats
 *.tar.gz
+*.pptx
 # Below are default
 .libs
 *.la

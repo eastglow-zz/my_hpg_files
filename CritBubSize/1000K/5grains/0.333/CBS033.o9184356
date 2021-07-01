@@ -1,0 +1,493 @@
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (36) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+
+[21]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[21]PETSC ERROR: Error in external library
+[21]PETSC ERROR: realpath()
+[21]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[21]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[21]PETSC ERROR: [22]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[22]PETSC ERROR: Error in external library
+[22]PETSC ERROR: realpath()
+[22]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[22]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[22]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[22]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[22]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[28]PETSC ERROR: [29]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[29]PETSC ERROR: Error in external library
+[29]PETSC ERROR: realpath()
+[29]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[29]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[29]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[29]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[29]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+/projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[21]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[21]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[12]PETSC ERROR: [0]PETSC ERROR: [3]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[3]PETSC ERROR: Error in external library
+[3]PETSC ERROR: realpath()
+[3]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[3]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+--------------------- Error Message --------------------------------------------------------------
+[12]PETSC ERROR: Error in external library
+[12]PETSC ERROR: realpath()
+[12]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[12]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[12]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[12]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[0]PETSC ERROR: Error in external library
+[0]PETSC ERROR: realpath()
+[0]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[0]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[0]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[0]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[1]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[1]PETSC ERROR: Error in external library
+[1]PETSC ERROR: realpath()
+[1]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[1]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[1]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[1]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[1]PETSC ERROR: [3]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[3]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[3]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[10]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[10]PETSC ERROR: Error in external library
+[10]PETSC ERROR: realpath()
+[10]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[10]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[10]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[10]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[12]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[0]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+#1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[10]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[17]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[17]PETSC ERROR: Error in external library
+[17]PETSC ERROR: realpath()
+[17]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[17]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[17]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[17]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[17]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[8]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[8]PETSC ERROR: Error in external library
+[8]PETSC ERROR: realpath()
+[8]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[8]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[8]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[8]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[8]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[13]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[13]PETSC ERROR: Error in external library
+[13]PETSC ERROR: realpath()
+[13]PETSC ERROR: [cli_21]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+[cli_22]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+[27]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[27]PETSC ERROR: Error in external library
+[27]PETSC ERROR: realpath()
+[27]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[27]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[27]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[cli_29]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 29
+[7]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[13]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[13]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[13]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[13]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[20]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[20]PETSC ERROR: Error in external library
+[20]PETSC ERROR: realpath()
+[20]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[20]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[20]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[20]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[20]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[27]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[27]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[7]PETSC ERROR: Error in external library
+[7]PETSC ERROR: realpath()
+[7]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[7]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[7]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[7]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[7]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[15]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[15]PETSC ERROR: Error in external library
+[15]PETSC ERROR: realpath()
+[15]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[15]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[15]PETSC ERROR: 
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[19]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[19]PETSC ERROR: Error in external library
+[19]PETSC ERROR: realpath()
+[19]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[19]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[19]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[19]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[19]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+/projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[15]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[15]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[cli_1]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+[cli_3]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+[4]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[4]PETSC ERROR: Error in external library
+[4]PETSC ERROR: realpath()
+[4]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_10]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+[cli_12]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_17]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+[25]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[25]PETSC ERROR: Error in external library
+[25]PETSC ERROR: realpath()
+[25]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[25]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[25]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[25]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[25]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_27]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+[cli_0]: [2]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[2]PETSC ERROR: Error in external library
+[2]PETSC ERROR: realpath()
+[2]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[2]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[2]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[2]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[2]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[4]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[4]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[4]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[4]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_8]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+[cli_13]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+[16]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[16]PETSC ERROR: Error in external library
+[16]PETSC ERROR: realpath()
+[16]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[16]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[16]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[16]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[16]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_19]: 
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_20]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+[24]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[24]PETSC ERROR: Error in external library
+[24]PETSC ERROR: realpath()
+[24]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[24]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[24]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[24]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[24]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[cli_7]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_15]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+[18]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[18]PETSC ERROR: Error in external library
+[18]PETSC ERROR: realpath()
+[18]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[18]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[18]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[18]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[18]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+[26]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[26]PETSC ERROR: Error in external library
+[26]PETSC ERROR: realpath()
+[26]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[26]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[26]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[26]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[26]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[9]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[9]PETSC ERROR: Error in external library
+[9]PETSC ERROR: realpath()
+[9]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[9]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[9]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[9]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[9]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_25]: [31]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[31]PETSC ERROR: Error in external library
+[31]PETSC ERROR: realpath()
+[31]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[31]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[31]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[31]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[31]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[cli_2]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+[cli_4]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+[5]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[5]PETSC ERROR: Error in external library
+[5]PETSC ERROR: realpath()
+[5]PETSC ERROR: [6]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[6]PETSC ERROR: Error in external library
+[6]PETSC ERROR: realpath()
+[6]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[6]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[6]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[6]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[6]PETSC ERROR: 
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_16]: 
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[5]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[5]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[5]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[5]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+#1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[11]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[11]PETSC ERROR: Error in external library
+[11]PETSC ERROR: realpath()
+[11]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[11]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[11]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[11]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[11]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_18]: 
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[30]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[30]PETSC ERROR: Error in external library
+[30]PETSC ERROR: realpath()
+[30]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[30]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[30]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[30]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[30]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+[23]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[23]PETSC ERROR: Error in external library
+[23]PETSC ERROR: realpath()
+[23]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[23]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[23]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[23]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[23]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+[cli_24]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_9]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+[cli_26]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_31]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_6]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_30]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+[cli_5]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+[cli_11]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+[14]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[cli_23]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+[14]PETSC ERROR: Error in external library
+[14]PETSC ERROR: realpath()
+[14]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[14]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[14]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:03 2020
+[14]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[14]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+--------------------- Error Message --------------------------------------------------------------
+[28]PETSC ERROR: Error in external library
+[28]PETSC ERROR: realpath()
+[28]PETSC ERROR: See https://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[28]PETSC ERROR: Petsc Development GIT revision: v3.12.1-340-ge22e20c5dc  GIT Date: 2019-11-13 10:00:21 -0600
+[28]PETSC ERROR: /projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new/coupling_xolotl_new-opt on a  named r3i7n5 by kimdong Tue Jul 28 05:59:02 2020
+[28]PETSC ERROR: Configure options PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc --prefix=/projects/NE_SciDAC/dependencies/petsc-install --download-hypre=1 --with-ssl=0 --with-debugging=no --with-pic=1 --with-shared-libraries=1 --with-cc=mpicc --with-cxx=mpicxx --with-fc=mpif90 --download-fblaslapack=1 --download-metis=1 --download-parmetis=1 --download-superlu_dist=1 --download-mumps=1 --download-scalapack=1 --with-cxx-dialect=C++11 --CC=mpicc --CXX=mpicxx --FC=mpif90 --FC=mpif77 --FC=mpif90 --CFLAGS="-fPIC -fopenmp" --CXXFLAGS="-fPIC -fopenmp" --FFLAGS="-fPIC -fopenmp" --FCFLAGS="-fPIC -fopenmp" --F90FLAGS="-fPIC -fopenmp" --F77FLAGS="-fPIC -fopenmp"
+[28]PETSC ERROR: #1 PetscGetRealPath() line 56 in /projects/NE_SciDAC/dependencies/petsc/src/sys/fileio/grpath.c
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+
+[31m
+*** ERROR ***
+Failed to get real path for /home/kimdong/scratch/CritBubSize/0.333/PFmulti_bubble_master.i[39m
+
+[cli_28]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28
+[cli_14]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 11923 RUNNING AT r3i7n5.ib0.ice.inl.gov
+=   EXIT CODE: 1
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================

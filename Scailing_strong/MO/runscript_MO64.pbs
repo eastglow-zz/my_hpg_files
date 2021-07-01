@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N MO64
+#PBS -M donguk.kim@ufl.edu
+#PBS -m bea
+#PBS -j oe
+#PBS -l select=2:ncpus=32:mpiprocs=32:mem=32gb
+#PBS -l walltime=08:00:0
+#PBS -l place=excl
+#PBS -P nsuf
+
+export LD_LIBRARY_PATH=/projects/NE_SciDAC/dependencies/boost_1_70_0-install/lib:/projects/NE_SciDAC/dependencies/xolotl-sophie/build/lib:/projects/NE_SciDAC/dependencies/hdf5-1.10.5-install/lib:$LD_LIBRARY_PATH
+module load impi
+APPPATH=/projects/NE_SciDAC/MOOSE/projects/coupling_xolotl_new
+RUNPATH=/home/kimdong/scratch/scaling_strong/MO
+mpirun $APPPATH/coupling_xolotl_new-opt -i $RUNPATH/PFmulti_bubble_master_20um_kdec_MO_renew.i

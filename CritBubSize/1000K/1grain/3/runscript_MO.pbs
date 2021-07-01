@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N CBS300
+#PBS -M donguk.kim@ufl.edu
+#PBS -m bea
+#PBS -j oe
+#PBS -l select=1:ncpus=36:mpiprocs=32
+#PBS -l walltime=96:00:0
+##PBS -l place=excl
+#PBS -P moose
+
+APPPATH=$MYPRJ_DIR/MOOSE/projects/coupling_xolotl_new
+RUNPATH=/home/kimdong/scratch/CritBubSize/1000K/1grain/3
+mpirun $APPPATH/coupling_xolotl_new-opt -i $RUNPATH/OneBub.i

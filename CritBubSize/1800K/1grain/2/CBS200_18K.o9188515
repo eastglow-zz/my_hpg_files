@@ -1,0 +1,1191 @@
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (36) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+
+
+[33m
+*** Warning, This code is deprecated and will be removed in future versions:
+The parameter D_name is deprecated.
+This parameter has been renamed to 'diffusivity', which is more mnemonic and more conducive to passing a number literal[39m
+
+
+Framework Information:
+MOOSE Version:           git commit b383c33fe2 on 2020-05-20
+LibMesh Version:         30d38fc9b5bc608655d033117a8d5cb59c57ae4c
+PETSc Version:           3.12.1
+Current Time:            Tue Jul 28 21:07:18 2020
+Executable Timestamp:    Tue Jul 28 06:01:32 2020
+
+Parallelism:
+  Num Processors:          32
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   
+    Total:                 15876
+    Local:                 531
+  Elems:                   
+    Total:                 15625
+    Local:                 482
+  Num Subdomains:          1
+  Num Partitions:          32
+  Partitioner:             metis
+
+Nonlinear System:
+  Num DOFs:                127008
+  Num Local DOFs:          4248
+  Variables:               { "wv" "wg" "etab0" "etam0" "etam1" "etam2" "etam3" "etam4" } 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Auxiliary System:
+  Num DOFs:                266880
+  Num Local DOFs:          8439
+  Variables:               { "bnds" "XolotlXeRate" "XolotlXeMono" "XolotlVolumeFraction" "time" } { "cg" 
+                             "cv" } { "VacRate" "VacRate0" "XeRate" "XeRate0" "cg_from_rhog" "cv_from_rhov" 
+                             } 
+  Finite Element Types:    "LAGRANGE" "MONOMIAL" "MONOMIAL" 
+  Approximation Orders:    "FIRST" "FIRST" "CONSTANT" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             IterationAdaptiveDT
+  Solver Mode:             NEWTON
+  MOOSE Preconditioner:    SMP
+
+
+[33m
+*** Warning ***
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:11: unused parameter 'XolotlWrapperPath'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:29: unused parameter 'GlobalParams/numbub'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:30: unused parameter 'GlobalParams/bubspac'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:31: unused parameter 'GlobalParams/radius'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:32: unused parameter 'GlobalParams/int_width'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:112: unused parameter 'ICs/etab0_IC/inside'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:113: unused parameter 'ICs/etab0_IC/outside'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:122: unused parameter 'ICs/etam1_IC/inside'
+/home/kimdong/scratch/CritBubSize/1800K/1grain/2/PFmulti_bubble_master.i:123: unused parameter 'ICs/etam1_IC/outside'
+[39m
+
+Time Step 0, time = -2000
+
+Postprocessor Values:
++----------------+----------------+----------------+
+| time           | dt             | porosity       |
++----------------+----------------+----------------+
+|  -2.000000e+03 |   0.000000e+00 |   0.000000e+00 |
++----------------+----------------+----------------+
+
+
+Time Step 1, time = -1999.5, dt = 0.5
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.6, dt = 0.4
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.68, dt = 0.32
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.74, dt = 0.256
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.8, dt = 0.2048
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.84, dt = 0.16384
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.87, dt = 0.131072
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.9, dt = 0.104858
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.92, dt = 0.0838861
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.93, dt = 0.0671089
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.95, dt = 0.0536871
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.96, dt = 0.0429497
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.97, dt = 0.0343597
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.97, dt = 0.0274878
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.98, dt = 0.0219902
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.98, dt = 0.0175922
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.99, dt = 0.0140737
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.99, dt = 0.011259
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.99, dt = 0.0090072
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.99, dt = 0.00720576
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -1999.99, dt = 0.00576461
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00461169
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00368935
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00295148
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00236118
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00188895
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00151116
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00120893
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000967141
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000773713
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00061897
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000495176
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000396141
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000316913
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.00025353
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000202824
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000162259
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000129807
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 0.000103846
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.30767e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.64614e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.31691e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.25353e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.40282e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.72226e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.17781e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.74225e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.3938e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.11504e-05
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.9203e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 7.13624e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.70899e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.56719e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.65375e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.923e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.3384e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.87072e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.49658e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.19726e-06
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 9.5781e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 7.66248e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.12998e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.90399e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.92319e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.13855e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.51084e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.00867e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.60694e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.28555e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.02844e-07
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.22752e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.58202e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.26561e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.21249e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.36999e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.69599e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.1568e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.72544e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.38035e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.10428e-08
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.83424e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 7.06739e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.65391e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.52313e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.6185e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.8948e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.31584e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.85267e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.48214e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.18571e-09
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 9.48569e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 7.58855e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.07084e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.85667e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.88534e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.10827e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.48662e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.98929e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.59143e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.27315e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.01852e-10
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.14814e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.51852e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.21481e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.17185e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.33748e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.66998e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.13599e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.70879e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.36703e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.09363e-11
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.749e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.9992e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.59936e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.47949e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.58359e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.86687e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.2935e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.8348e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.46784e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.17427e-12
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 9.39417e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 7.51534e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.01227e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.80982e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.84785e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.07828e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.46263e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.9701e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.57608e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.26086e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 1.00869e-13
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 8.06953e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 6.45562e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 5.1645e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 4.1316e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 3.30528e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.64422e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2.11538e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+Solve failed, cutting timestep.
+
+Time Step 1, time = -2000, dt = 2e-14
+[31m Solve Did NOT Converge![39m
+Aborting as solve did not converge
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_1]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_2]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_3]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_4]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_5]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_6]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_7]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_8]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_9]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_10]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_11]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_12]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_13]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_14]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_15]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_16]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_17]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_18]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_19]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_20]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_21]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_22]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_23]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_24]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_25]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_26]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_27]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_28]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_29]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 29
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_30]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+
+[31m
+*** ERROR ***
+Solve failed and timestep already at dtmin, cannot continue![39m
+
+[cli_31]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Processor id:   0                                                                                                                                                   |
+| Num Processors: 32                                                                                                                                                  |
+| Time:           Tue Jul 28 21:07:30 2020                                                                                                                            |
+| OS:             Linux                                                                                                                                               |
+| HostName:       r1i2n3                                                                                                                                              |
+| OS Release:     4.12.14-95.54-default                                                                                                                               |
+| OS Version:     #1 SMP Thu Jun 4 12:49:28 UTC 2020 (892ef1f)                                                                                                        |
+| Machine:        x86_64                                                                                                                                              |
+| Username:       kimdong                                                                                                                                             |
+| Configuration:  /projects/NE_SciDAC/MOOSE/projects/moose/scripts/../libmesh/configure  'INSTALL=/projects/NE_SciDAC/MOOSE/projects/moose/scripts/../libmesh/build-aux/install-sh -C'|
+|  '--with-methods=opt oprof dbg'                                                                                                                                     |
+|  '--prefix=/projects/NE_SciDAC/MOOSE/projects/moose/scripts/../libmesh/installed'                                                                                   |
+|  '--enable-silent-rules'                                                                                                                                            |
+|  '--enable-unique-id'                                                                                                                                               |
+|  '--disable-warnings'                                                                                                                                               |
+|  '--enable-glibcxx-debugging'                                                                                                                                       |
+|  '--with-thread-model=openmp'                                                                                                                                       |
+|  '--disable-maintainer-mode'                                                                                                                                        |
+|  '--enable-petsc-hypre-required'                                                                                                                                    |
+|  '--enable-metaphysicl-required'                                                                                                                                    |
+|  'PETSC_DIR=/projects/NE_SciDAC/dependencies/petsc-install/'                                                                                                        |
+|  'METHODS=opt oprof dbg'                                                                                                                                            |
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
+| coupling_xolotl_new Performance: Alive time=59.4123, Active time=0.000524                                  |
+ ------------------------------------------------------------------------------------------------------------
+| Event                         nCalls     Total Time  Avg Time    Total Time  Avg Time    % of Active Time  |
+|                                          w/o Sub     w/o Sub     With Sub    With Sub    w/o S    With S   |
+|------------------------------------------------------------------------------------------------------------|
+|                                                                                                            |
+|                                                                                                            |
+| PolycrystalICTools                                                                                         |
+|   assignOpsToGrains()         1          0.0005      0.000524    0.0005      0.000524    100.00   100.00   |
+ ------------------------------------------------------------------------------------------------------------
+| Totals:                       1          0.0005                                          100.00            |
+ ------------------------------------------------------------------------------------------------------------
+
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 5294 RUNNING AT r1i2n3.ib0.ice.inl.gov
+=   EXIT CODE: 1
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================

@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N CR126
+#PBS -M donguk.kim@ufl.edu
+#PBS -m bea
+#PBS -j oe
+#PBS -l select=6:ncpus=21:mpiprocs=21:mem=32gb
+#PBS -l walltime=08:00:0
+#PBS -l place=excl
+#PBS -P moose
+
+APPPATH=/home/kimdong/projects/coupling_xolotl
+RUNPATH=/home/kimdong/scratch/scaling_strong/CR
+mpirun $APPPATH/coupling_xolotl-opt -i $RUNPATH/PFmulti_bubble_master_20um_kdec_clu_Res.i

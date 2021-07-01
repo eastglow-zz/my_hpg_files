@@ -1,0 +1,473 @@
+Warning: Permanently added 'r5i5n2.ib0.ice.inl.gov,10.148.6.116' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'r6i5n4.ib0.ice.inl.gov,10.148.6.244' (ECDSA) to the list of known hosts.
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (36) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_1]: [cli_2]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+[cli_4]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+[cli_7]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+[cli_8]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+[cli_11]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+[cli_12]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+[cli_14]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_15]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_10]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+[cli_13]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_5]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+[cli_9]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+[cli_3]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_6]: [cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_36]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_23]: [cli_40]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_31]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31
+[cli_53]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 53
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 36
+[cli_55]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 55
+[cli_22]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+[cli_38]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38
+[cli_63]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 63
+[cli_26]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_49]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 49
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_51]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 51
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_37]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37
+[cli_54]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 54
+[cli_42]: [cli_57]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 57
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42
+[cli_62]: [cli_28]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28
+[cli_46]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 46
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 62
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_47]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_18]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_52]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 52
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_19]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+[cli_45]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 45
+[cli_58]: [cli_39]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 39
+[cli_59]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 59
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 58
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_56]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56
+[cli_48]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 48
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_43]: [cli_50]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 50
+[cli_20]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 43
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_17]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_24]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+[cli_25]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+[cli_30]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+[cli_61]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 61
+[cli_21]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_35]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 35
+[cli_60]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 60
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_27]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_34]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 34
+[cli_29]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 29
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_44]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 44
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_41]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 41
+
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+[cli_32]: 
+[31m
+*** ERROR ***
+/home/kimdong/scratch/ICvary_CnR/10gr/GPM_GT_ic_from_file.i:394: extra closing '[]' found[39m
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 32
+[cli_16]: [cli_33]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 33
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 11080 RUNNING AT r4i2n14.ib0.ice.inl.gov
+=   EXIT CODE: 1
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+[proxy:0:1@r5i5n2] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:909): assert (!closed) failed
+[proxy:0:1@r5i5n2] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@r5i5n2] main (pm/pmiserv/pmip.c:256): demux engine error waiting for event
+[proxy:0:2@r6i5n4] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:909): assert (!closed) failed
+[proxy:0:2@r6i5n4] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@r6i5n4] main (pm/pmiserv/pmip.c:256): demux engine error waiting for event
+[mpiexec@r4i2n14] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@r4i2n14] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@r4i2n14] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@r4i2n14] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
